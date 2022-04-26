@@ -1,6 +1,6 @@
-package br.com.alura.orgs.dao
+package br.com.she.orgs.dao
 
-import br.com.alura.orgs.model.Produto
+import br.com.she.orgs.model.Produto
 import java.math.BigDecimal
 
 class ProdutosDao {

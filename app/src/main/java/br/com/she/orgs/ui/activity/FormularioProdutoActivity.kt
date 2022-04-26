@@ -1,12 +1,12 @@
-package br.com.alura.orgs.ui.activity
+package br.com.she.orgs.ui.activity
 
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
-import br.com.alura.orgs.dao.ProdutosDao
-import br.com.alura.orgs.databinding.ActivityFormularioProdutoBinding
-import br.com.alura.orgs.extensions.tentaCarregarImagem
-import br.com.alura.orgs.model.Produto
-import br.com.alura.orgs.ui.dialog.FormularioImagemDialog
+import br.com.she.orgs.dao.ProdutosDao
+import br.com.she.orgs.databinding.ActivityFormularioProdutoBinding
+import br.com.she.orgs.extensions.tentaCarregarImagem
+import br.com.she.orgs.model.Produto
+import br.com.she.orgs.ui.dialog.FormularioImagemDialog
 import java.math.BigDecimal
 
 class FormularioProdutoActivity : AppCompatActivity() {
@@ -60,5 +60,4 @@ class FormularioProdutoActivity : AppCompatActivity() {
             imagem = url
         )
     }
-
 }

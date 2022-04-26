@@ -1,14 +1,14 @@
-package br.com.alura.orgs.ui.recyclerview.adapter
+package br.com.she.orgs.ui.recyclerview.adapter
 
 import android.content.Context
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
-import br.com.alura.orgs.databinding.ProdutoItemBinding
-import br.com.alura.orgs.extensions.formataParaMoedaBrasileira
-import br.com.alura.orgs.extensions.tentaCarregarImagem
-import br.com.alura.orgs.model.Produto
+import br.com.she.orgs.databinding.ProdutoItemBinding
+import br.com.she.orgs.extensions.formataParaMoedaBrasileira
+import br.com.she.orgs.extensions.tentaCarregarImagem
+import br.com.she.orgs.model.Produto
 
 class ListaProdutosAdapter(
     private val context: Context,
@@ -52,8 +52,6 @@ class ListaProdutosAdapter(
 
             binding.imageView.tentaCarregarImagem(produto.imagem)
         }
-
-
     }
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): ViewHolder {
@@ -74,5 +72,4 @@ class ListaProdutosAdapter(
         this.produtos.addAll(produtos)
         notifyDataSetChanged()
     }
-
 }

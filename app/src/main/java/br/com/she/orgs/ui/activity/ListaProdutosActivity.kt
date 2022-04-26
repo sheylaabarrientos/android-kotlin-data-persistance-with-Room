@@ -1,11 +1,11 @@
-package br.com.alura.orgs.ui.activity
+package br.com.she.orgs.ui.activity
 
 import android.content.Intent
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
-import br.com.alura.orgs.dao.ProdutosDao
-import br.com.alura.orgs.databinding.ActivityListaProdutosActivityBinding
-import br.com.alura.orgs.ui.recyclerview.adapter.ListaProdutosAdapter
+import br.com.she.orgs.dao.ProdutosDao
+import br.com.she.orgs.databinding.ActivityListaProdutosActivityBinding
+import br.com.she.orgs.ui.recyclerview.adapter.ListaProdutosAdapter
 
 class ListaProdutosActivity : AppCompatActivity() {
 

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="br.com.alura.orgs">
+    package="br.com.she.orgs">
 
     <uses-permission android:name="android.permission.INTERNET" />
 
@@ -12,11 +12,11 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Orgs">
         <activity
-            android:name=".ui.activity.DetalhesProdutoActivity"
+            android:name="br.com.she.orgs.ui.activity.DetalhesProdutoActivity"
             android:theme="@style/Theme.Orgs.NoActionBar" />
-        <activity android:name=".ui.activity.FormularioProdutoActivity" />
+        <activity android:name="br.com.she.orgs.ui.activity.FormularioProdutoActivity" />
         <activity
-            android:name=".ui.activity.ListaProdutosActivity"
+            android:name="br.com.she.orgs.ui.activity.ListaProdutosActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

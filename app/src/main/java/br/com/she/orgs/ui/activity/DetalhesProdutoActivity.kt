@@ -1,11 +1,11 @@
-package br.com.alura.orgs.ui.activity
+package br.com.she.orgs.ui.activity
 
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import br.com.alura.orgs.databinding.ActivityDetalhesProdutoBinding
-import br.com.alura.orgs.extensions.formataParaMoedaBrasileira
-import br.com.alura.orgs.extensions.tentaCarregarImagem
-import br.com.alura.orgs.model.Produto
+import androidx.appcompat.app.AppCompatActivity
+import br.com.she.orgs.databinding.ActivityDetalhesProdutoBinding
+import br.com.she.orgs.extensions.formataParaMoedaBrasileira
+import br.com.she.orgs.extensions.tentaCarregarImagem
+import br.com.she.orgs.model.Produto
 
 class DetalhesProdutoActivity : AppCompatActivity() {
 
@@ -34,5 +34,4 @@ class DetalhesProdutoActivity : AppCompatActivity() {
                 produtoCarregado.valor.formataParaMoedaBrasileira()
         }
     }
-
 }

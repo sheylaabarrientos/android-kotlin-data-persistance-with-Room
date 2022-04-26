@@ -1,4 +1,4 @@
-package br.com.alura.orgs.extensions
+package br.com.she.orgs.extensions
 
 import java.math.BigDecimal
 import java.text.NumberFormat
