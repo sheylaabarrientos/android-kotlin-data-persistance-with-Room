@@ -17,4 +17,7 @@ interface ProdutoDao {
 
     @Update
     fun altera(vararg produto: Produto)
+
+    @Query("SELECT * FROM Produto WHERE id = :id")
+    fun buscaPorId(id: Long): Produto?
 }
