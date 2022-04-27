@@ -53,5 +53,4 @@ class ListaProdutosActivity : AppCompatActivity() {
             startActivity(intent)
         }
     }
-
 }
