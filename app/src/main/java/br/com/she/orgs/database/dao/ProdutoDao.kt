@@ -9,14 +9,11 @@ interface ProdutoDao {
     @Query("SELECT * FROM Produto")
     fun buscaTodos(): List<Produto>
 
-    @Insert
+    @Insert(onConflict = OnConflictStrategy.REPLACE)
     fun salva(vararg produto: Produto)
 
     @Delete
     fun remove(vararg produto: Produto)
-
-    @Update
-    fun altera(vararg produto: Produto)
 
     @Query("SELECT * FROM Produto WHERE id = :id")
     fun buscaPorId(id: Long): Produto?
